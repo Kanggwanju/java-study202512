@@ -12,13 +12,15 @@ public class Main {
 
         iu.singSolo();
         iu.introduce();
-        iu.perform();
 
         // 그룹 가수 생성
         GroupIdol wonyoung = new GroupIdol("장원영", "아이브", 6);
 
         wonyoung.groupDance();
         wonyoung.introduce();
+
+        System.out.println("===================");
+        iu.perform();
         wonyoung.perform();
     }
 }

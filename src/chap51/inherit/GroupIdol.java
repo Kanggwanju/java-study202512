@@ -19,4 +19,10 @@ public class GroupIdol extends Idol {
                 , this.groupName, this.memberCount);
     }
 
+    // 오버라이딩
+    @Override
+    public void perform() {
+        System.out.println(name
+            + "이(가) 그룹 무대에서 화려한 공연을 합니다.");
+    }
 }
