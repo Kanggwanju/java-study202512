@@ -8,10 +8,10 @@ public class Main {
 
         // 부모의 타입을 사용할 수 있음, 모든 클래스의 부모는 Object
         // 업캐스팅(자식 타입의 객체를 부모 타입의 변수에 저장, 자동으로 형변환됨
-        Idol iu = new SoloArtist("아이유", "분홍신");
-        Idol chaewon = new GroupIdol("김채원", "르세라핌", 5);
-        Idol jongguk = new SoloArtist("김종국", "한남자");
-        Idol sakura = new GroupIdol("사쿠라", "르세라핌", 5);
+        SoloArtist iu = new SoloArtist("아이유", "분홍신");
+        GroupIdol chaewon = new GroupIdol("김채원", "르세라핌", 5);
+        SoloArtist jongguk = new SoloArtist("김종국", "한남자");
+        GroupIdol sakura = new GroupIdol("사쿠라", "르세라핌", 5);
 
         Idol[] idols = {iu, chaewon, jongguk, sakura};
 
@@ -30,6 +30,11 @@ public class Main {
 //        for (GroupIdol groupIdol : idols2) {
 //            groupIdol.perform();
 //        }
+
+        System.out.println("=========================");
+
+        ConcertManager cm = new ConcertManager();
+        cm.startConcert(jongguk);
 
     }
 }

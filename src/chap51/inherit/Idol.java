@@ -20,7 +20,7 @@ public class Idol {
     }
 
     // 공통 기능
-    protected void introduce() {
+    public void introduce() {
         System.out.printf("안녕하세요! %s의 %s입니다.\n", groupName, name);
     }
     public void perform() {
