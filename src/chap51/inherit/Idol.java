@@ -23,7 +23,7 @@ public class Idol {
     protected void introduce() {
         System.out.printf("안녕하세요! %s의 %s입니다.\n", groupName, name);
     }
-    protected void perform() {
+    public void perform() {
         System.out.println(name + "이(가) 무대에서 공연합니다.");
     }
 }
