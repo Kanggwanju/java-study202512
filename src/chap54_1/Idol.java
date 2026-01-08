@@ -1,4 +1,4 @@
-package chap54;
+package chap54_1;
 
 public class Idol {
     // 인스턴스 변수 (각 개체마다 별도로 가짐)
