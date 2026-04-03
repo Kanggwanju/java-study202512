@@ -3,7 +3,7 @@ package chap56;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class ExceptionThrowStudy {
+public class ExceptionThrowsStudy {
 
     public static void readFile() throws IOException {
         System.out.println("파일을 읽습니다...");
