@@ -5,6 +5,11 @@ import java.util.List;
 
 public class ArrayListMain {
     public static void main(String[] args) {
+
+        // List 인터페이스
+        // 1. 데이터를 넣은 순서대로 저장
+        // 2. 똑같은 데이터를 여러 번 넣어도 모두 저장
+
         // String 타입만 담는 List 생성
         List<String> iveMembers = new ArrayList<>();
         
