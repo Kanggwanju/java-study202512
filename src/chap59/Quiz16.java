@@ -1,20 +1,20 @@
 package chap59;
 
-class A {
+class A1 {
     int a;
     int b;
 }
 
 public class Quiz16 {
-    static void func1(A m) {
+    static void func1(A1 m) {
         m.a *= 10;
     }
-    static void func2(A m) {
+    static void func2(A1 m) {
         m.a += m.b;
     }
 
     public static void main(String[] args) {
-        A m = new A();
+        A1 m = new A1();
         m.a = 100;
         func1(m);  // a: 1000
         m.b = m.a; // b: 1000

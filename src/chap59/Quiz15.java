@@ -2,7 +2,7 @@ package chap59;
 // 스레드, Runnable, 인터페이스, 빈칸
 
 // Car 클래스가 Runnable 인터페이스 구현
-class Car implements Runnable {
+class Car1 implements Runnable {
     int a;
 
     public void run() {
@@ -15,7 +15,7 @@ public class Quiz15 {
         // 빈칸 -> Car
         // 스레드 생성: Thread 생성자에는 Runnable 객체 필요
         // new Car()로 Runnable 객체 생성
-        Thread t1 = new Thread(new Car());
+        Thread t1 = new Thread(new Car1());
         t1.start();
     }
 }
